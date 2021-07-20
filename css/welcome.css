@@ -1,5 +1,5 @@
 body {
-      background-image: url("../imagesK/background1.jpg");
+      background-image: url("https://shreyak5.github.io/img/background1.jpg");
       /* background-repeat: no-repeat;
       /* background-attachment: fixed; */
       background-size: cover; 
@@ -296,7 +296,7 @@ h2{
 }
 
 #homepage-bot{
-  background-image: url("../imagesK/robot.png");
+  background-image: url("https://shreyak5.github.io/img/robot.png");
   background-size: cover;
   width:150px;
   height:195px;
