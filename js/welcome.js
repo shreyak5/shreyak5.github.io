@@ -5,15 +5,15 @@ var ele=document.getElementById("scoree");
 var count1=1,count2=1,count3=1,count4=1,count5=1,count6=1,count7=1,count8=1,count9=1,count10=1;
 
 var snd1 = new Audio("https://shreyak5.github.io/aud/audio1.ogg");
-var snd2 = new Audio("https://shreyak5.github.ioaud/audio2.ogg");
-var snd3 = new Audio("https://shreyak5.github.ioaud/audio3.ogg");
-var snd4 = new Audio("https://shreyak5.github.ioaud/audio4.ogg");
-var snd5 = new Audio("https://shreyak5.github.ioaud/audio5.ogg");
-var snd6 = new Audio("https://shreyak5.github.ioaud/audio6.ogg");
-var snd7 = new Audio("https://shreyak5.github.ioaud/audio7.ogg");
-var snd8 = new Audio("https://shreyak5.github.ioaud/audio8.ogg");
-var snd9 = new Audio("https://shreyak5.github.ioaud/audio9.ogg");
-var snd10 = new Audio("https://shreyak5.github.ioaud/audio10.ogg");
+var snd2 = new Audio("https://shreyak5.github.io/aud/audio2.ogg");
+var snd3 = new Audio("https://shreyak5.github.io/aud/audio3.ogg");
+var snd4 = new Audio("https://shreyak5.github.io/aud/audio4.ogg");
+var snd5 = new Audio("https://shreyak5.github.io/aud/audio5.ogg");
+var snd6 = new Audio("https://shreyak5.github.io/aud/audio6.ogg");
+var snd7 = new Audio("https://shreyak5.github.io/aud/audio7.ogg");
+var snd8 = new Audio("https://shreyak5.github.io/aud/audio8.ogg");
+var snd9 = new Audio("https://shreyak5.github.io/aud/audio9.ogg");
+var snd10 = new Audio("https://shreyak5.github.io/aud/audio10.ogg");
 
 function changeColor1(color) {
     document.getElementById('number1').style.backgroundColor = color;
