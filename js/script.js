@@ -49,14 +49,14 @@ function displayChoice(){
 function iconChoice(){
     var c=localStorage.getItem("character");
     if(c==1)
-        return "imagesK/yellow.png";
+        return "https://shreyak5.github.io/img/yellow.png";
     else if(c==2)
-        return "imagesK/blue.png"; 
+        return "https://shreyak5.github.io/img/blue.png"; 
     else if(c==3)
-        return "imagesK/green.png"; 
+        return "https://shreyak5.github.io/img/green.png"; 
     else if(c==4)
-        return "imagesK/grey.png";
+        return "https://shreyak5.github.io/img/grey.png";
     else if(c==5)
-        return "imagesK/red.png";
+        return "https://shreyak5.github.io/img/red.png";
 
 }
