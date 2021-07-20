@@ -1,0 +1,322 @@
+body {
+      background-image: url("../imagesK/background1.jpg");
+      /* background-repeat: no-repeat;
+      /* background-attachment: fixed; */
+      background-size: cover; 
+      margin:0;
+      font-family: 'Otomanopee One', sans-serif;
+      background-attachment: fixed;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  
+      
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: rgb(90, 201, 245);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: right;
+    z-index:20;
+  }
+  
+  .navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 9px 11px;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  
+  .navbar a:hover {
+    background: rgb(235, 126, 159);
+    color: black;
+  }
+  
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    text-align: center;
+    margin: 30px;
+  }
+  #q1Get
+  {
+    border:2px black solid;
+    border-radius:5px;
+    padding:2px;
+    left:48%;
+    margin-top:20px;
+    cursor: pointer;
+    font-family: 'Otomanopee One', sans-serif;
+  }
+  #q1Get:hover{
+    box-shadow: 0 0 10px red;
+  }
+  #q2Get
+  {
+    border:2px black solid;
+    border-radius:5px;
+    padding:2px;
+    left:48%;
+    margin-top:20px;
+    cursor: pointer;
+    font-family: 'Otomanopee One', sans-serif;
+  }
+  #q2Get:hover{
+    box-shadow: 0 0 10px red;
+  }
+  #q3Get
+  {
+    border:2px black solid;
+    border-radius:5px;
+    padding:2px;
+    left:48%;
+    margin-top:20px;
+    cursor: pointer;
+    font-family: 'Otomanopee One', sans-serif;
+  }
+  #q3Get:hover{
+    box-shadow: 0 0 10px red;
+  }
+#qh
+{
+  font-size: 30px;
+}
+
+  .button {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    
+    .button1 {background-color: green;} /* Green */
+    .button2 {background-color: #008CBA;} /* Blue */
+    .button3 {background-color: #008CBA;width: 200;}
+    #numbers
+    {
+        text-align: center;
+    }
+    #seesaw
+    {
+        text-align: center;
+    }
+    #great
+    {
+        text-align: center;
+    }
+    #next
+    {
+      text-align: center
+    }
+    #q1l
+    {
+      position: relative;
+      bottom: 115px;
+      right: 110px;
+      width: 30px;
+    }
+    #q1g
+    {
+      position: relative;
+      bottom: 185px;
+      left: 90px;
+      width: 30px;
+    }
+    #q2l
+    {
+      position: relative;
+      bottom: 115px;
+      right: 110px;
+      width: 30px;
+    }
+    #q2g
+    {
+      position: relative;
+      bottom: 185px;
+      left: 90px;
+      width: 30px;
+    }
+    #q3l
+    {
+      position: relative;
+      bottom: 115px;
+      right: 110px;
+      width: 30px;
+    }
+    #q3g
+    {
+      position: relative;
+      bottom: 185px;
+      left: 90px;
+      width: 30px;
+    }
+
+  #submit-button{
+    position:relative;
+    width:max-content;
+    border:2px black solid;
+    border-radius:5px;
+    padding:2px;
+    left:48%;
+    margin-top:20px;
+  }
+
+  #submit-button:hover{
+    box-shadow: 0 0 10px red;
+  }
+
+  #introcomp
+  {
+    font-size: 30px;
+  }
+h2{
+  font-size: 35px;
+}
+  #q1
+{
+    position:relative;
+    bottom: 440px;
+    left:350px;
+    width:30px;
+}
+#q2
+{
+    position:relative;
+    bottom: 320px;
+    left:305px;
+    width:30px;
+}
+
+#q3
+{
+    position:relative;
+    bottom: 200px;
+    left:260px;
+    width:30px;
+}
+
+
+#q4
+{
+    position:relative;
+    bottom: 80px;
+    left:215px;
+    width:30px;
+}
+#qs1
+{
+    position:relative;
+    bottom: 330px;
+    left:310px;
+    width:30px;
+}
+#qs2
+{
+    position:relative;
+    bottom: 240px;
+    left:265px;
+    width:30px;
+}
+
+#qs3
+{
+    position:relative;
+    bottom: 140px;
+    left:220px;
+    width:30px;
+}
+
+
+#qs4
+{
+    position:relative;
+    bottom: 50px;
+    left:175px;
+    width:30px;
+}
+
+#counti
+{
+  font-size: 30px;
+}
+
+#numbers
+{
+  font-size: 30px;
+}
+#number1
+{
+  position:relative;
+  right: 19px;
+}
+#number2
+{
+  position: relative;
+  right: 15px;
+}
+#number4
+{
+  position: relative;
+  right: 10px;
+}
+#number5
+{
+  position: relative;
+  right: 17px;
+}
+#number6
+{
+  position: relative;
+  right: 24px;
+}
+#number8
+{
+  position: relative;
+  right: 3px;
+}
+#number9
+{
+  position: relative;
+  right: 13px;
+}
+#number10
+{
+  position: relative;
+  right: 18px;
+}
+
+#homepage-bot{
+  background-image: url("../imagesK/robot.png");
+  background-size: cover;
+  width:150px;
+  height:195px;
+  position:absolute;
+  top:100px;
+  left:30px;
+  transform: rotate(-10deg);
+}
+#nav-buttons button{
+  margin-top:30px;
+  margin-bottom:20px;
+  font-size:20px;
+  margin-right:10px;
+}
+#nav-buttons button:hover{
+  box-shadow: 0 0 10px red;
+
+}
+.move{
+  position:relative;
+  left:520px;
+  bottom:100px;
+}
