@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="imagesK/favicon.png" type="image/png">
+<link rel="stylesheet" href="css/welcome.css">
+<script src="js/welcome.js"></script>
+<script src ="jsK/script.js"></script>
+<link rel="stylesheet" href="cssK/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+<title>Counting</title>
+</head>
+<body>
+
+  <div class="navbar" id='scorebtn'>
+    <a id="name"></a>
+    <a id="mini-icon"></a>
+    <a><img src="imagesK/chocolate3.png" width="37" height="28"></a>
+    <p id="score"></p>
+    <script>
+      document.querySelector("#name").innerHTML= localStorage.getItem("nickname");
+      var mini_icon = new Image(37,28);
+      mini_icon.src=iconChoice();
+      document.querySelector("#mini-icon").appendChild(mini_icon);
+      var ele = document.getElementById("score");
+      ele.innerHTML=localStorage.getItem("score");
+    </script>
+  </div>
+<div id="margined">
+
+<div class="main">
+  <div class="container"><h1><b>COUNTING</b></h1></div>
+  <div id="homepage-bot"></div>
+    
+    <p id="counti">Let's learn counting from 1 to 10!<br><small><small>Click on each button thrice to learn and gain points!</small></small></p>
+</div>
+<div id="numbers">
+<button class="button button2" id="number1" onclick="check1()">1</button>
+  ONE <br>
+<button class="button button2" id="number2" onclick="check2()">2</button>
+TWO<br>
+<button class="button button2" id="number3" onclick="check3()">3</button>
+THREE<br>
+<button class="button button2" id="number4" onclick="check4()">4</button>
+FOUR<br>
+<button class="button button2" id="number5" onclick="check5()">5</button>
+FIVE<br>
+<button class="button button2" id="number6" onclick="check6()">6</button>
+SIX<br>
+<button class="button button2" id="number7" onclick="check7()">7</button>
+SEVEN<br>
+<button class="button button2" id="number8" onclick="check8()">8</button>
+EIGHT<br>
+<button class="button button2" id="number9" onclick="check9()">9</button>
+NINE<br>
+<button class="button button3" id="number10" onclick="check10()">10</button>
+TEN<br>
+</div>
+<div id="nav-buttons">
+<a href="final.html"><button>Quit</button></a>
+<a href="homepage.html"><button>Play Another Game</button></a>
+</div>
+<script>
+  function displayScore(){
+    ele.innerHTML=localStorage.getItem("score");
+  }
+</script>
+
+
+</div>
+</body>
+</html>
