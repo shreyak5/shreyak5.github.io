@@ -1,5 +1,5 @@
 body{
-    background-image: url("../imagesK/background1.jpg");
+    background-image: url("https://shreyak5.github.io/img/background1.jpg");
       /* background-repeat: no-repeat;
       /* background-attachment: fixed; */
       background-size: cover; 
@@ -34,32 +34,32 @@ h1{
 }
 
 #yellow{
-    background-image: url("../imagesK/yellow.png");
+    background-image: url("https://shreyak5.github.io/img/yellow.png");
     background-size:cover;
     width:216px;
     height:162px;  
 }
 #blue{
-    background-image: url("../imagesK/blue.png");
+    background-image: url("https://shreyak5.github.io/img/blue.png");
     background-size:cover;
     width:216px;
     height:162px;   
     
 }
 #red{
-    background-image: url("../imagesK/red.png");
+    background-image: url("https://shreyak5.github.io/img/red.png");
     background-size:cover;
     width:216px;
     height:162px;    
 }
 #grey{
-    background-image: url("../imagesK/grey.png");  
+    background-image: url("https://shreyak5.github.io/img/grey.png");  
     background-size:cover;
     width:216px;
     height:162px;  
 }
 #green{
-    background-image: url("../imagesK/green.png"); 
+    background-image: url("https://shreyak5.github.io/img/green.png"); 
     background-size:cover;
     width:216px;
     height:162px;   
@@ -100,7 +100,7 @@ h1{
 }
 
 #homepage-bot{
-    background-image: url("../imagesK/robot.png");
+    background-image: url("https://shreyak5.github.io/img/robot.png");
     background-size: cover;
     width:150px;
     height:195px;
@@ -147,7 +147,7 @@ h1{
 
 
 #counting{
-    background-image:url("../imagesK/counting1.png");
+    background-image:url("https://shreyak5.github.io/img/counting1.png");
     background-size:cover;
 }
 
@@ -157,7 +157,7 @@ h1{
 }
 
 #comparison{
-    background-image:url("../imagesK/comparisonn.png");
+    background-image:url("https://shreyak5.github.io/img/comparisonn.png");
     background-size:cover;
 }
 
@@ -167,7 +167,7 @@ h1{
 }
 
 #addition{
-    background-image:url("../imagesK/addition\ \(1\).png");
+    background-image:url("https://shreyak5.github.io/img/addition\ \(1\).png");
     background-size:cover;
 
 }
@@ -177,7 +177,7 @@ h1{
 }
 
 #subtraction{
-    background-image:url("../imagesK/subtract.png");
+    background-image:url("https://shreyak5.github.io/img/subtract.png");
     background-size:cover;
 
 }
