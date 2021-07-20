@@ -1,0 +1,60 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>MathMania!</title>
+
+        <link href="cssK/bootstrap.min.css" rel="stylesheet">
+        <link href="cssK/styles.css" rel="stylesheet">
+        <link rel="shortcut icon" href="imagesK/favicon.png" type="image/png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="jsK/bootstrap.min.js"></script>
+        <script src="jsK/script.js"></script>
+        <script src="jsK/jquery.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome to MathMania!!</h1><br><br>
+            <div>
+                <form class="form">
+                <ul>
+                    <li>Enter your nickname: </li>
+                    <label>
+                    <input type="text" id="nameField" placeholder="Name" value="" required />
+                    </label><br><br>
+                    <li>Enter your age: </li>
+                    <label>
+                        <input type="text" id="ageField" placeholder="Age" value="" required />
+                    </label><br><br>
+                    <li>Choose your character: </li><br>
+                        <div class="row" id="characters">
+                            <div id="yellow" class="col-md-4" onclick="characterChoice(1)"></div>
+                            <div id="blue" class="col-md-4" onclick="characterChoice(2)"></div>
+                            <div id="green" class="col-md-4" onclick="characterChoice(3)"></div>
+                            <div id="grey" class="col-md-4" onclick="characterChoice(4)"></div>
+                            <div id="red" class="col-md-4" onclick="characterChoice(5)"></div>  
+                        </div>
+                </ul>
+                <a href="homepage.html">
+                    <div type="submit" onclick="fillForm()" value="NEXT" name="submit" id="next-button">
+                        NEXT
+                    </div>
+                </a>
+                </form>
+                <div id="choice-display"></div>
+            </div>
+
+            </div><!--End of form-->
+        </div>
+
+        
+        
+    </body>
+    </html>
