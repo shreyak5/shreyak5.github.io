@@ -153,24 +153,30 @@ function comparisonQ(c)
     {
         var x=document.getElementById("q1n1");
         var y=document.getElementById("q1n2");
-        x.value=Math.ceil(Math.random()*10);
-        y.value=Math.ceil(Math.random()*10);
+        do{
+            x.value=Math.floor((Math.random()*10)+1);
+            y.value=Math.floor((Math.random()*10)+1);
+        }while(x.value==10 || y.value==10);
         x.innerHTML="The numbers are " +x.value+" and "+y.value+"!";
     }
     else if(c==2)
     {
         var x=document.getElementById("q2n1");
         var y=document.getElementById("q2n2");
-        x.value=Math.ceil(Math.random()*10);
-        y.value=Math.ceil(Math.random()*10);
+        do{
+            x.value=Math.floor((Math.random()*10)+1);
+            y.value=Math.floor((Math.random()*10)+1);
+        }while(x.value==10 || y.value==10);
         x.innerHTML="The numbers are " +x.value+" and "+y.value+"!";
     }
     else
     {
         var x=document.getElementById("q3n1");
         var y=document.getElementById("q3n2");
-        x.value=Math.ceil(Math.random()*10);
-        y.value=Math.ceil(Math.random()*10);
+        do{
+            x.value=Math.floor((Math.random()*10)+1);
+            y.value=Math.floor((Math.random()*10)+1);
+        }while(x.value==10 || y.value==10);
         x.innerHTML="The numbers are " +x.value+" and "+y.value+"!";
     }
 }
